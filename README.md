@@ -92,5 +92,46 @@ Find the lenght of the longest substring which consists of at most *k* number of
 
 - we use a sliding window approach for the above problem statement.
 
+```
+def alcoding(s,k):
+    array_with_split_s = split s wrt ' '
+    string=new array of length s.length
+    for i in array_with_split_s:
+        string=string+i
+    if string.length==0:
+        return 0
+    if k==0:
+        return 0
+    set1=set()
+    set1.add(string[0])
+    d=dict()
+    dstring[0]]=0
+    leng=string.length
+    count=0
+    end=1
+    for start from 0 to leng:
+        if end==l:
+            return count
+        while end<= leng:
+            if string[end-1] not in set1:
+                set1.add(sstring[end-1])
+                d[string[end-1]]=0
+            d[string[end-1]]=d[string[end-1]]+1
+
+            if (set1).length>k:
+                d[string[start]]=d[string[start]]-1
+                if d[string[start]]==0:
+                    set1.remove(string[start])
+                if count<end-start-1:
+                    count=end-start-1
+                set1.remove(string[end-1])
+                d[string[end-1]]=0
+                break
+            if count<end-start:
+                count=end-start
+            end+=1
+    return count
+ ```
+
 ### Implementation
 
