@@ -34,7 +34,7 @@ Find the lenght of the longest substring which consists of at most *k* number of
    ```
 ---
   
-3. Input:
+2. Input:
    
    ```
    s='illustrated', k=4
@@ -47,7 +47,7 @@ Find the lenght of the longest substring which consists of at most *k* number of
    ```
 ---
 
-4. Input:
+3. Input:
    
     ```
    s='alcoding', k=1
@@ -60,7 +60,7 @@ Find the lenght of the longest substring which consists of at most *k* number of
    ``` 
 ---
 
-5. Input:
+4. Input:
 
    ```
    s='olaminion', k=3
@@ -73,7 +73,7 @@ Find the lenght of the longest substring which consists of at most *k* number of
    ```
 ---
 
-6. Input:
+5. Input:
 
    ```
    s='eceba', k=2
@@ -86,7 +86,7 @@ Find the lenght of the longest substring which consists of at most *k* number of
    ```
 ---
    
-7. Input:
+6. Input:
 
    ```
    s='fragile', k=0
@@ -99,7 +99,7 @@ Find the lenght of the longest substring which consists of at most *k* number of
    ```
 ---
 
-8. Input:
+7. Input:
 
    ```
    s='DEEPseek', k=3
@@ -112,7 +112,7 @@ Find the lenght of the longest substring which consists of at most *k* number of
    ```
 ---
 
-9. Input:
+8. Input:
 
    ```
    s='You are already dead', k=8
