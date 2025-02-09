@@ -32,6 +32,7 @@ Find the lenght of the longest substring which consists of at most *k* number of
    ```
    5
    ```
+---
   
 3. Input:
    
@@ -44,6 +45,7 @@ Find the lenght of the longest substring which consists of at most *k* number of
    ``` 
    5
    ```
+---
 
 4. Input:
    
@@ -56,6 +58,7 @@ Find the lenght of the longest substring which consists of at most *k* number of
    ``` 
    1
    ``` 
+---
 
 5. Input:
 
@@ -68,6 +71,7 @@ Find the lenght of the longest substring which consists of at most *k* number of
    ```
    5
    ```
+---
 
 6. Input:
 
@@ -80,6 +84,7 @@ Find the lenght of the longest substring which consists of at most *k* number of
    ```
    3
    ```
+---
    
 7. Input:
 
@@ -92,6 +97,7 @@ Find the lenght of the longest substring which consists of at most *k* number of
    ```
    0
    ```
+---
 
 8. Input:
 
@@ -104,6 +110,7 @@ Find the lenght of the longest substring which consists of at most *k* number of
    ```
    4
    ```
+---
 
 9. Input:
 
