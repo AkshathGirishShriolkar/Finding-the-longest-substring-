@@ -16,8 +16,8 @@ Find the lenght of the longest substring which consists of at most *k* number of
 
 # Constraints
 
--0 <= s.length < 10^6
--0 <= n < 10^6
+- 0 <= s.length < 10^6
+- 0 <= n < 10^6
 
 ## Testcases
 
