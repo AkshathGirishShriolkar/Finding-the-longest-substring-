@@ -23,67 +23,99 @@ Find the lenght of the longest substring which consists of at most *k* number of
 
 1. Input:
    
-   ``` s='onomotopia', k=3 ```
+   ```
+   s='onomotopia', k=3
+   ```
    
 1. Output:
    
-   ``` 5 ```
+   ```
+   5
+   ```
   
-2. Input:
+3. Input:
    
-   ``` s='illustrated', k=4 ```
+   ```
+   s='illustrated', k=4
+   ```
    
 2.Output:
 
-   ``` 5 ```
+   ``` 
+   5
+```
 
 4. Input:
    
-    ``` s='alcoding', k=1 ```
+    ```
+   s='alcoding', k=1
+    ```
    
 3.Output:
 
-   ``` 1 ```
+   ``` 
+   1
+   ```
 
 5. Input:
 
-   ``` s='olaminion', k=3 ```
+   ```
+   s='olaminion', k=3
+    ```
    
 4. Output:
 
-   ``` 5 ```
+   ```
+   5
+   ```
 
-5. Input:
+6. Input:
 
-   ``` s='eceba', k=2 ```
+   ```
+   s='eceba', k=2
+   ```
    
 5. Output:
 
-   ``` 3 ```
+   ```
+   3
+   ```
    
-6. Input:
+7. Input:
 
-   ``` s='fragile', k=0 ```
+   ```
+   s='fragile', k=0
+   ```
    
 6. Output:
 
-   ``` 0 ```
-
-7. Input:
-
-   ``` s='DEEPseek', k=3 ```
-   
-7. Output:
-
-   ``` 4 ```
+   ```
+   0
+   ```
 
 8. Input:
 
-   ``` s='You are already dead', k=8 ```
+   ```
+   s='DEEPseek', k=3
+    ```
+   
+7. Output:
+
+   ```
+   4
+   ```
+
+9. Input:
+
+   ```
+   s='You are already dead', k=8
+   ```
    
 8. Output:
 
-   ``` 16 ```
+   ```
+   16
+   ```
 
 
 
