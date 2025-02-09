@@ -130,6 +130,16 @@ Find the lenght of the longest substring which consists of at most *k* number of
 ## Solution
 
 - we use a sliding window approach for the above problem statement.
+- in the function, before we go to the main fpart of the program, we 1st remove all the spaces.
+- we then take care of the edge cases mainly (k=0 and s='')
+- next, we create 3 free variables. l (or) leng stores length of the string and end is the end pointer of the sliding window.
+- start is the start pointer of the sliding window.
+- we start iterating through the string using a for loop.
+
+- we enter the while loop with an appropriate condition.
+- when the end pointer moves forward, block1 takes care of logging the character if the character is not present in the window
+- block2 takes care of when the number of unique characters in the window increases the value k. then, we exit the while loop and by doing that, we increase the start variable, essentially decreasing the sliding window's width by 1 from the left side
+- block3 just logs the length of the sliding window
 
 ```
 def alcoding(s,k):
@@ -152,11 +162,12 @@ def alcoding(s,k):
         if end==l:
             return count
         while end<= leng:
+            #block1
             if string[end-1] not in set1:
                 set1.add(sstring[end-1])
                 d[string[end-1]]=0
             d[string[end-1]]=d[string[end-1]]+1
-
+            #block2
             if (set1).length>k:
                 d[string[start]]=d[string[start]]-1
                 if d[string[start]]==0:
@@ -166,6 +177,7 @@ def alcoding(s,k):
                 set1.remove(string[end-1])
                 d[string[end-1]]=0
                 break
+            #block3
             if count<end-start:
                 count=end-start
             end+=1
@@ -195,12 +207,14 @@ def alcoding(s,k):
         if j==l:
             return count
         while j<=l:
-            
+
+            #block1
             if s[j-1] not in set1:
                 set1.add(s[j-1])
                 d[s[j-1]]=0
             d[s[j-1]]=d[s[j-1]]+1
 
+            #block2
             if len(set1)>k:
                 d[s[i]]=d[s[i]]-1
                 if d[s[i]]==0:
@@ -210,6 +224,8 @@ def alcoding(s,k):
                 set1.remove(s[j-1])
                 d[s[j-1]]=0
                 break
+
+            #block2
             if count<j-i:
                 count=j-i
             j+=1
@@ -218,4 +234,3 @@ s=input()
 k=int(input())
 print(alcoding(s,k))
 ```
-
