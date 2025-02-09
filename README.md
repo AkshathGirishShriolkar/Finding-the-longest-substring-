@@ -135,3 +135,45 @@ def alcoding(s,k):
 
 ### Implementation
 
+```
+def alcoding(s,k):
+    array_with_split_s=s.split()
+    s=[]
+    for i in array_with_split_s:
+        s+=i
+    if len(s)==0:
+        return 0
+    if k==0:
+        return 0
+    set1=set()
+    set1.add(s[0])
+    d=dict()
+    d[s[0]]=0
+    l=len(s)
+    count=0
+    j=1
+    for i in range(l):
+        if j==l:
+            return count
+        while j<=l:
+            
+            if s[j-1] not in set1:
+                set1.add(s[j-1])
+                d[s[j-1]]=0
+            d[s[j-1]]=d[s[j-1]]+1
+
+            if len(set1)>k:
+                d[s[i]]=d[s[i]]-1
+                if d[s[i]]==0:
+                    set1.remove(s[i])
+                if count<j-i-1:
+                    count=j-i-1
+                set1.remove(s[j-1])
+                d[s[j-1]]=0
+                break
+            if count<j-i:
+                count=j-i
+            j+=1
+    return count
+```
+
