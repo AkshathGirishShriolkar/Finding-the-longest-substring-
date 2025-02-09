@@ -21,104 +21,104 @@ Find the lenght of the longest substring which consists of at most *k* number of
 
 ## Testcases
 
-1. Input:
+- Input:
    
    ```
    s='onomotopia', k=3
    ```
    
-1. Output:
+- Output:
    
    ```
    5
    ```
 ---
   
-2. Input:
+- Input:
    
    ```
    s='illustrated', k=4
    ```
    
-2. Output:
+- Output:
 
    ``` 
    5
    ```
 ---
 
-3. Input:
+- Input:
    
     ```
    s='alcoding', k=1
     ```
    
-3. Output:
+- Output:
 
    ``` 
    1
    ``` 
 ---
 
-4. Input:
+- Input:
 
    ```
    s='olaminion', k=3
     ```
    
-4. Output:
+- Output:
 
    ```
    5
    ```
 ---
 
-5. Input:
+- Input:
 
    ```
    s='eceba', k=2
    ```
    
-5. Output:
+- Output:
 
    ```
    3
    ```
 ---
    
-6. Input:
+- Input:
 
    ```
    s='fragile', k=0
    ```
    
-6. Output:
+- Output:
 
    ```
    0
    ```
 ---
 
-7. Input:
+- Input:
 
    ```
    s='DEEPseek', k=3
     ```
    
-7. Output:
+- Output:
 
    ```
    4
    ```
 ---
 
-8. Input:
+- Input:
 
    ```
    s='You are already dead', k=8
    ```
    
-8. Output:
+- Output:
 
    ```
    16
