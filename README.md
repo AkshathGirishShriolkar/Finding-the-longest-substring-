@@ -214,5 +214,8 @@ def alcoding(s,k):
                 count=j-i
             j+=1
     return count
+s=input()
+k=int(input())
+print(alcoding(s,k))
 ```
 
