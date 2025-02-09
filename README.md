@@ -8,7 +8,7 @@ Find the lenght of the longest substring which consists of at most *k* number of
 
 ## Input Format
 
--s= a string, k= an integer
+- s= a string, k= an integer
 
 # Output Format
 
