@@ -39,7 +39,7 @@ Find the lenght of the longest substring which consists of at most *k* number of
    s='illustrated', k=4
    ```
    
-2.Output:
+2. Output:
 
    ``` 
    5
@@ -51,7 +51,7 @@ Find the lenght of the longest substring which consists of at most *k* number of
    s='alcoding', k=1
     ```
    
-3.Output:
+3. Output:
 
    ``` 
    1
