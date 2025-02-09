@@ -43,7 +43,7 @@ Find the lenght of the longest substring which consists of at most *k* number of
 
    ``` 
    5
-```
+   ```
 
 4. Input:
    
@@ -55,7 +55,7 @@ Find the lenght of the longest substring which consists of at most *k* number of
 
    ``` 
    1
-   ```
+   ``` 
 
 5. Input:
 
