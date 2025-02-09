@@ -6,15 +6,15 @@ Find the lenght of the longest substring which consists of at most *k* number of
 
 **answer:** "lee" or "eet" .Since each string has only 2 unique characters but is the longest substring in the given string which has 2 characters.
 
-#Input Format
+## Input Format
 
 -s= a string, k= an integer
 
-#Output Format
+# Output Format
 
 - n where n is an integer
 
-#Constraints
+# Constraints
 
 -0 <= s.length < 10^6
 -0 <= n < 10^6
@@ -64,9 +64,9 @@ Find the lenght of the longest substring which consists of at most *k* number of
 
 
 
-##Solution
+## Solution
 
 - we use a sliding window approach for the above problem statement.
 
-###Implementation
+### Implementation
 
