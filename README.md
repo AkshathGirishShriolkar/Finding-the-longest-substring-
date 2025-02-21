@@ -26,7 +26,7 @@ n where n is an integer
 - Input:
    
    ```
-   'onomotopia' 
+  'onomotopia' 
    3
    ```
    
