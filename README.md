@@ -26,7 +26,7 @@ n where n is an integer
 - Input:
    
    ```
-   'onomotopia' <br>
+   'onomotopia' 
    3
    ```
    
@@ -40,7 +40,7 @@ n where n is an integer
 - Input:
    
    ```
-   'illustrated'<br>
+   'illustrated'
    4
    ```
    
@@ -54,7 +54,7 @@ n where n is an integer
 - Input:
    
     ```
-   'alcoding'<br>
+   'alcoding'
     1
     ```
    
@@ -68,7 +68,7 @@ n where n is an integer
 - Input:
 
    ```
-   'olaminion'<br>
+   'olaminion'
    3
     ```
    
@@ -82,7 +82,7 @@ n where n is an integer
 - Input:
 
    ```
-   'eceba'<br>
+   'eceba'
    2
    ```
    
@@ -96,7 +96,7 @@ n where n is an integer
 - Input:
 
    ```
-   'fragile'<br>
+   'fragile'
    0
    ```
    
@@ -110,7 +110,7 @@ n where n is an integer
 - Input:
 
    ```
-   'DEEPseek'<br>
+   'DEEPseek'
    3
     ```
    
@@ -124,7 +124,7 @@ n where n is an integer
 - Input:
 
    ```
-   'You are already dead'<br>
+   'You are already dead'
    8
    ```
    
