@@ -1,4 +1,4 @@
-# Finding-the-longest-substring-
+ # Finding-the-longest-substring-
 
 Find the lenght of the longest substring which consists of at most *k* number of characters and given string *s*. Note that uppercase and lowercase letters are considered different characters and spaces are not considered as characters at all.
 
@@ -8,13 +8,13 @@ Find the lenght of the longest substring which consists of at most *k* number of
 
 ## Input Format
 
-s= a string
+s
 
- k= an integer
+ k
 
 # Output Format
 
-- n where n is an integer
+n where n is an integer
 
 # Constraints
 
@@ -26,7 +26,8 @@ s= a string
 - Input:
    
    ```
-   s='onomotopia', k=3
+   'onomotopia' <br>
+   3
    ```
    
 - Output:
@@ -39,7 +40,8 @@ s= a string
 - Input:
    
    ```
-   s='illustrated', k=4
+   'illustrated'<br>
+   4
    ```
    
 - Output:
@@ -52,7 +54,8 @@ s= a string
 - Input:
    
     ```
-   s='alcoding', k=1
+   'alcoding'<br>
+    1
     ```
    
 - Output:
@@ -65,7 +68,8 @@ s= a string
 - Input:
 
    ```
-   s='olaminion', k=3
+   'olaminion'<br>
+   3
     ```
    
 - Output:
@@ -78,7 +82,8 @@ s= a string
 - Input:
 
    ```
-   s='eceba', k=2
+   'eceba'<br>
+   2
    ```
    
 - Output:
@@ -91,7 +96,8 @@ s= a string
 - Input:
 
    ```
-   s='fragile', k=0
+   'fragile'<br>
+   0
    ```
    
 - Output:
@@ -104,7 +110,8 @@ s= a string
 - Input:
 
    ```
-   s='DEEPseek', k=3
+   'DEEPseek'<br>
+   3
     ```
    
 - Output:
@@ -117,7 +124,8 @@ s= a string
 - Input:
 
    ```
-   s='You are already dead', k=8
+   'You are already dead'<br>
+   8
    ```
    
 - Output:
